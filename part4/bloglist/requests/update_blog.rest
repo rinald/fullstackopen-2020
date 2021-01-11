@@ -1,0 +1,10 @@
+PUT http://localhost:3003/api/blogs/5fcffe40809f841ad7954b3c
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJpbmFsZCIsImlkIjoiNWZiNDFmZDI3NDM5OGUxYjc5OGFkZDFhIiwiaWF0IjoxNjA1NjQwNDE4fQ.fB9HwLi0__ziJRCJqS9CAVQ-PjVafwxkze5NrziRUjw
+
+{
+    "author": "Rinald Shabani",
+    "title": "Example",
+    "url": "https://example.com/article-1",
+    "likes": 444
+}
